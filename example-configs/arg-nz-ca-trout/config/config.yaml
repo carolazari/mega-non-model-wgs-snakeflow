@@ -1,7 +1,7 @@
-units: config/units.tsv
-chromosomes: .test/config/chromosomes.tsv
-scaffold_groups: .test/config/scaffold_groups.tsv
-scatter_intervals_file: .test/config/scatters_1200000.tsv
+units: example-configs/arg-nz-ca-trout/config/units.tsv
+chromosomes: example-configs/CCGP-trout/config/chromosomes.tsv
+scaffold_groups: example-configs/CCGP-trout/config/scaffold_groups.tsv
+scatter_intervals_file: example-configs/CCGP-trout/scatters_5000000.tsv
 
 # this file is only needed when treating different samples
 # as different species, for indel realignment, etc.
@@ -66,7 +66,7 @@ ref:
   # Put underscores for spaces
   species_name: Oncorhynchus_mykiss
   # name you want to use for the genome version
-  genome_version_name: Otsh_v2_reduced
+  genome_version_name: USDA_OmykA_1.1
   # the URL where this can be downloaded, if public and easy to
   # get with wget.  If not, then you should hand-download
   # genome.fasta and genome.gff or genome.gtf
