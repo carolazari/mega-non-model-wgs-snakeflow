@@ -1,5 +1,5 @@
 units: example-configs/arg-nz-ca-trout/config/units.tsv
-chromosomes: example-configs/CCGP-trout/config/chromosomes.tsv
+chromosomes: example-configs/CCGP-trout/chromosomes.tsv
 scaffold_groups: example-configs/CCGP-trout/config/scaffold_groups.tsv
 scatter_intervals_file: example-configs/CCGP-trout/scatters_5000000.tsv
 
