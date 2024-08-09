@@ -1,7 +1,7 @@
-units: config/units_CAxArg.tsv
-chromosomes: config/chromosomes.tsv
-scaffold_groups: config/scaffold_groups.tsv
-scatter_intervals_file: config/scatters_5000000.tsv
+units: conf/units_CAxArg.tsv
+chromosomes: conf/chromosomes.tsv
+scaffold_groups: conf/scaffold_groups.tsv
+scatter_intervals_file: conf/scatters_5000000.tsv
 
 # this file is only needed when treating different samples
 # as different species, for indel realignment, etc.
