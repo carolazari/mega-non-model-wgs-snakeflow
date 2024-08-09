@@ -1,4 +1,4 @@
-units: config/units.tsv
+units: config/units_CAxArg.tsv
 chromosomes: config/chromosomes.tsv
 scaffold_groups: config/scaffold_groups.tsv
 scatter_intervals_file: config/scatters_5000000.tsv
