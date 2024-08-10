@@ -1,7 +1,7 @@
-units: conf/units_CAxArg.tsv
-chromosomes: conf/chromosomes.tsv
-scaffold_groups: conf/scaffold_groups.tsv
-scatter_intervals_file: conf/scatters_5000000.tsv
+units: example-configs/arg-nz-ca-chinook/config/units_CAxArg.tsv
+chromosomes: example-configs/arg-nz-ca-chinook/config/chromosomes.tsv
+scaffold_groups: example-configs/arg-nz-ca-chinook/config/scaffold_groups.tsv
+scatter_intervals_file: example-configs/arg-nz-ca-chinook/config/scatters_5000000.tsv
 
 # this file is only needed when treating different samples
 # as different species, for indel realignment, etc.
