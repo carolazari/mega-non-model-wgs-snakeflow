@@ -29,7 +29,7 @@ cluster-cancel-nargs: 1000
 
 set-threads:
   map_reads: 20
-  trim_reads_pe: 5 
+  trim_reads_pe: 15 
 set-resources:
   map_reads:
     mem_mb: 94000
@@ -38,6 +38,6 @@ set-resources:
     mem_mb: 90000
     time: "7-00:00:00"
   trim_reads_pe:
-    mem_mb: 23500
+    mem_mb: 50000
     time: "7-00:00:00"
 
