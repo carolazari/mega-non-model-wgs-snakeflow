@@ -23,7 +23,9 @@ rule trim_reads_pe:
         "       -o {output.r1} -O {output.r2} "
         "       -h {output.html} -j {output.json} "
         "  {params.trim_settings} > {log.out} 2> {log.err} "
-
+    resources:
+        mem_mb=40000,
+        time="23:59:59"
 
 # eca modified this.  The idea is to give 4 threads to bwa.
 # and it will get 4 cores and also take all the memory you'd
