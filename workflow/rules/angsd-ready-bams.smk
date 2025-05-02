@@ -27,7 +27,7 @@ rule clip_overlaps:
     benchmark:
         "results/bqsr-round-{bqsr_round}/benchmarks/clip_overlaps/{sample}.bmk"
     shell:
-        " bam clipOverlap --in {input} --out {output} --stats 2> {log.clip} && "
+        " bam clipOverlap --in {input} --out {output} --stats 2> {log.clip} --poolSize 2000000 && "
         " samtools index {output} 2> {log.index}"
 
 
