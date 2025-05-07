@@ -9,9 +9,10 @@ cluster:
     --output=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.out
     --error=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.err
     --parsable
+    -p medmem
 default-resources:
   - time="08:00:00"
-  - mem_mb=90000
+  - mem_mb=150000
 restart-times: 0
 max-jobs-per-second: 10
 max-status-checks-per-second: 50
