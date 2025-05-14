@@ -36,7 +36,7 @@ maf_cutoffs: [0.01]
 # to specify some downsampling levels to do you can put them in the
 # depths list here.
 downsample_bams:
-  depths: [2]
+  depths: []
   bqsr_round: 0
 
 
