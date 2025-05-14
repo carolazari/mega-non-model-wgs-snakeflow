@@ -1,4 +1,4 @@
-units: example-configs/arg-nz-ca-chinook/conf/units_CAxArg_April25.tsv
+units: example-configs/arg-nz-ca-chinook/conf/units_CAxArg_noColr.tsv
 chromosomes: example-configs/arg-nz-ca-chinook/config/chromosomes.tsv
 scaffold_groups: example-configs/arg-nz-ca-chinook/config/scaffold_groups.tsv
 scatter_intervals_file: example-configs/arg-nz-ca-chinook/config/scatters_5000000.tsv
