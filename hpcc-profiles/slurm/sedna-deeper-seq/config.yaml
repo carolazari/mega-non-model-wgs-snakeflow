@@ -1,8 +1,6 @@
 cluster:
   mkdir -p results/slurm_logs/{rule} &&
   sbatch
-    --exclude=node[29-36] #avoid this if you want medmem
-    --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
     --job-name=smk-{rule}-{wildcards}
@@ -45,3 +43,4 @@ set-resources:
     cpus: 20
     time: "20:00:00"   
 
+## --exclude=node[29-36] avoid this when using medmem
