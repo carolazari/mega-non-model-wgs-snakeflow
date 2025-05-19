@@ -1,7 +1,6 @@
 cluster:
   mkdir -p results/slurm_logs/{rule} &&
   sbatch
-    --exclude=node[29-36]
     --cpus-per-task={threads}
     --mem={resources.mem_mb}
     --time={resources.time}
@@ -12,7 +11,7 @@ cluster:
     -p medmem
 default-resources:
   - time="08:00:00"
-  - mem_mb=96000
+  - mem_mb=150000
 restart-times: 0
 max-jobs-per-second: 10
 max-status-checks-per-second: 50
@@ -28,3 +27,4 @@ cluster-status: status-sacct-robust.sh
 cluster-cancel: scancel
 cluster-cancel-nargs: 1000
 
+#--exclude=node[29-36]
