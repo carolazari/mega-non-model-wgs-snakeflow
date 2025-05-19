@@ -1,14 +1,13 @@
 cluster:
   mkdir -p results/slurm_logs/{rule} &&
   sbatch
-    --exclude=node[29-36]
     --mem={resources.mem_mb}
     --time={resources.time}
     --job-name=smk-{rule}-{wildcards}
     --output=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.out
     --error=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.err
     --parsable
-    --partition standard
+    --partition medmem
 default-resources:
   - time="08:00:00"
   - mem_mb=150000
