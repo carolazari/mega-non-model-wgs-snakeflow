@@ -1,6 +1,6 @@
 include: "rules/common.smk"
 
-ruleorder: use_existing_bam > mark_duplicates
+
 
 
 
@@ -33,18 +33,7 @@ rule old_all:
         "plots/depths.svg",
         "plots/allele-freqs.svg",
 
-rule use_existing_bam:
-    input:
-        bam="big_downsampling/final_output_3/SRR23782967.bam",
-        bai="big_downsampling/final_output_3/SRR23782967.bam.bai"
-    output:
-        bam="results/bqsr-round-{bq}/mkdup/SRR23782967.bam",
-        bai="results/bqsr-round-{bq}/mkdup/SRR23782967.bam.bai"
-    shell:
-        """
-        ln -sf {input.bam} {output.bam}
-        ln -sf {input.bai} {output.bai}
-        """
+
 
 
 ##### Modules #####
