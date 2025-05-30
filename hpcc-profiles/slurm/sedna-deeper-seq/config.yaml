@@ -8,7 +8,7 @@ cluster:
     --error=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.err
     --parsable
     --partition medmem
-    
+    --exclude=node[29-32]
 default-resources:
   - time="24:00:00"
   - mem_mb=150000
