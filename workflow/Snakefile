@@ -1,5 +1,6 @@
 include: "rules/common.smk"
 
+ruleorder: use_existing_bam > mark_duplicates
 
 
 
