@@ -8,6 +8,7 @@ cluster:
     --error=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.err
     --parsable
     --partition standard
+    --exclude=node[29-36]
     
 default-resources:
   - time="08:00:00"
