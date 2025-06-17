@@ -1,4 +1,4 @@
-units: example-configs/arg-nz-ca-chinook/conf/units_CAxNZ_June25.tsv
+units: example-configs/arg-nz-ca-chinook/conf/units_CAxArg_June25.tsv
 chromosomes: example-configs/arg-nz-ca-chinook/config/chromosomes.tsv
 scaffold_groups: example-configs/arg-nz-ca-chinook/config/scaffold_groups.tsv
 scatter_intervals_file: example-configs/arg-nz-ca-chinook/config/scatters_5000000.tsv
@@ -70,10 +70,15 @@ ref:
   # the URL where this can be downloaded, if public and easy to
   # get with wget.  If not, then you should hand-download
   # genome.fasta and genome.gff or genome.gtf
-  genome_url: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/872/995/GCF_002872995.1_Otsh_v1.0/GCF_002872995.1_Otsh_v1.0_genomic.fna.gz
+  #This is for version v.1
+  #genome_url: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/872/995/GCF_002872995.1_Otsh_v1.0/GCF_002872995.1_Otsh_v1.0_genomic.fna.gz
   # if there is a GFF or GTF file, they have to have a .gff or
   # .gtf extension.  This where you put the URL for it
-  gff_or_gtf_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/872/995/GCF_002872995.1_Otsh_v1.0/GCF_002872995.1_Otsh_v1.0_genomic.gff.gz"
+  #gff_or_gtf_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/002/872/995/GCF_002872995.1_Otsh_v1.0/GCF_002872995.1_Otsh_v1.0_genomic.gff.gz"
+  #This od for genome v2
+  genome_url: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/296/145/GCF_018296145.1_Otsh_v2.0/GCF_018296145.1_Otsh_v2.0_genomic.fna.gz 
+  gff_or_gtf_url: "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/018/296/145/GCF_018296145.1_Otsh_v2.0/GCF_018296145.1_Otsh_v2.0_genomic.gtf.gz"
+
 
 
 filtering:
