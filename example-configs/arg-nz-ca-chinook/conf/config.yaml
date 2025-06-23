@@ -1,6 +1,6 @@
 units: example-configs/arg-nz-ca-chinook/conf/units_CAxArg_June25.tsv
-chromosomes: example-configs/arg-nz-ca-chinook/config/chromosomes.tsv
-scaffold_groups: example-configs/arg-nz-ca-chinook/config/scaffold_groups.tsv
+chromosomes: example-configs/arg-nz-ca-chinook/config/chromosomes_v2.tsv
+scaffold_groups: example-configs/arg-nz-ca-chinook/config/scaffold_groups_v2.tsv
 scatter_intervals_file: example-configs/arg-nz-ca-chinook/config/scatters_5000000.tsv
 
 # this file is only needed when treating different samples
