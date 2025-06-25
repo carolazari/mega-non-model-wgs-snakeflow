@@ -37,12 +37,12 @@ set-resources:
     time: "12:00:00"
   mark_duplicates:
     mem_mb: 90000
-    time: "12:00:00"
+    time: "10:00:00"
   trim_reads_pe:
     mem_mb: 90000
-    time: "12:00:00"
+    time: "10:00:00"
   clip_overlaps:
     cpus: 20
-    time: "12:00:00"   
+    time: "10:00:00"   
 
 ## --exclude=node[29-36] avoid this when using medmem
