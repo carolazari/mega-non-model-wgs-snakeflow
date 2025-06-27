@@ -35,15 +35,15 @@ set-threads:
 set-resources:
   map_reads:
     mem_mb: 94000
-    time: "08:00:00"
+    time: "3-00:00:00"
   mark_duplicates:
     mem_mb: 90000
-    time: "08:00:00"
+    time: "3-00:00:00"
   trim_reads_pe:
     mem_mb: 90000
-    time: "08:00:00"
+    time: "3-00:00:00"
   clip_overlaps:
     cpus: 20
-    time: "08:00:00"   
+    time: "3-00:00:00"   
 
 ## --exclude=node[29-36] avoid this when using medmem
