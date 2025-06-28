@@ -1,4 +1,4 @@
-units: example-configs/arg-nz-ca-chinook/conf/units_CAxArg_June25.tsv
+units: example-configs/arg-nz-ca-chinook/conf/units_CAxNZ_June25.tsv
 chromosomes: example-configs/arg-nz-ca-chinook/conf/chromosomes.tsv
 scaffold_groups: example-configs/arg-nz-ca-chinook/conf/scaffold_groups.tsv
 scatter_intervals_file: example-configs/arg-nz-ca-chinook/conf/scatters_5000000_gv2.tsv
@@ -36,7 +36,7 @@ maf_cutoffs: [0.01]
 # to specify some downsampling levels to do you can put them in the
 # depths list here.
 downsample_bams:
-  depths: []
+  depths: [2]
   bqsr_round: 0
 
 
