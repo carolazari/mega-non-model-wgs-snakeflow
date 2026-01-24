@@ -104,9 +104,9 @@ params:
     # found it better to just require high base quality scores.
     #HaplotypeCaller: " --min-base-quality-score 33 --minimum-mapping-quality 20 " (for mykiss)
     HaplotypeCaller: " --min-base-quality-score 20 --minimum-mapping-quality 10 --sample-ploidy 2 " #for the clams as it is 2bRAD
-    #BaseRecalibrator: ""
+    BaseRecalibrator: ""
     GenotypeGVCFs: ""
-  #  VariantRecalibrator: ""
+    VariantRecalibrator: ""
   picard:
     MarkDuplicates: " --TAGGING_POLICY All --CREATE_INDEX "
   fastp:
