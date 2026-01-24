@@ -7,7 +7,7 @@ cluster:
     --output=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.out
     --error=results/slurm_logs/{rule}/{rule}-{wildcards}-%j.err
     --parsable
-    --partition medmem
+    --partition highmem
 
 
     
